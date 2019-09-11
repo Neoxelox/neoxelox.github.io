@@ -1,2 +1,2 @@
-# neoxelox.github.io
-Just a personal webpage
+# neoxelox.com
+My Personal Webpage / CV
