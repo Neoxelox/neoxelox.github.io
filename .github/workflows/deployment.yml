@@ -22,8 +22,8 @@ jobs:
             npm run build
 
       - name: Deploy 🚀
-          uses: JamesIves/github-pages-deploy-action@3.5.9
-          with:
-              ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-              BRANCH: gh-pages
-              FOLDER: dist
+        uses: JamesIves/github-pages-deploy-action@3.5.9
+        with:
+            ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+            BRANCH: gh-pages
+            FOLDER: dist
