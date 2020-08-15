@@ -13,10 +13,12 @@ jobs:
         with:
             persist-credentials: false
 
-      - name: Install and Build 🔧
+      - name: Setup Node 🍀
         uses: actions/setup-node@master
         with:
           node-version: 13
+
+      - name: Install and Build 🔧
         run: |
             npm ci
             npm run build
