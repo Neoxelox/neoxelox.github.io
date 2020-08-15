@@ -1,2 +1,2 @@
 # neoxelox.com
-My Personal Webpage / CV
+My Portfolio / CV / Personal Webpage
