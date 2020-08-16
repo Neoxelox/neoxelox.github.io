@@ -18,7 +18,7 @@ module.exports = {
     trailingSlash: true
   },
   templates: {},
-  metadata: { // Global metada (requires restart)
+  metadata: { // Global metadata (requires restart)
   },
   plugins: []
 }

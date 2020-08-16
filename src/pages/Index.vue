@@ -15,19 +15,32 @@
       <a href="https://github.com/gridsome/gridsome" target="_blank" rel="noopener">GitHub</a>
     </p>
 
+    <p>
+      {{ message }}
+    </p>
+
   </Layout>
 </template>
 
 <script>
 export default {
-  metaInfo: {
-    title: 'Hello, world!'
+  metaInfo () {
+    return {
+      title: 'Hello, world!'
+    }
+  },
+  data () {
+    return {
+      message: process.env.GRIDSOME_ENVIRONTMENT
+    }
   }
 }
 </script>
 
-<style>
-.home-links a {
-  margin-right: 1rem;
+<style lang="scss" scoped>
+.home-links {
+  a {
+    margin-right: 1rem;
+  }
 }
 </style>
